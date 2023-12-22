@@ -1,1 +1,1 @@
-docker build --network=host  -t cuda-image .
+docker build --network=host  -t pycuda-tensorrt:python310 .
