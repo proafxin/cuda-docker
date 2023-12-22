@@ -1,1 +1,1 @@
-docker build --network=host  -t pycuda-tensorrt:python310 .
+docker build --network=host  -t pycuda-tensorrt:python37 .
