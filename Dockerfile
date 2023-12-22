@@ -5,10 +5,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt install software-properties-common curl -y
 RUN add-apt-repository ppa:deadsnakes/ppa -y
-RUN apt install python3.9 -y
-RUN apt install python3.9-dev build-essential -y
-RUN apt install python3-setuptools python3.9-distutils python3-pip -y
-RUN ln -sf /usr/bin/python3.9 /usr/bin/python3
+RUN apt install python3.7 -y
+RUN apt install python3.7-dev build-essential -y
+RUN apt install python3-setuptools python3.7-distutils python3-pip -y
+RUN ln -sf /usr/bin/python3.7 /usr/bin/python3
 RUN python3 -m pip install -U pip setuptools
 
 
